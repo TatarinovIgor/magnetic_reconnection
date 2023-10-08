@@ -3,8 +3,8 @@ import sys
 from scipy.signal import find_peaks
 
 
-dataset = np.loadtxt("datasets/solar_cycle_23",
-                     dtype=float)
+dataset = np.loadtxt("datasets/omniweb.txt",
+                     dtype=float) # change file to see other datasets
 
 np.set_printoptions(suppress=True)
 np.set_printoptions(threshold=sys.maxsize)
