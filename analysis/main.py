@@ -110,5 +110,4 @@ dates = []
 for i in subset2:
     dates.append(int((i[0]+i[1]+i[2])/3/24))
 
-print("days from 1996/01/01:")
 print(dates)
